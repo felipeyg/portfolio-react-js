@@ -24,5 +24,28 @@
       "title": "Webflow Development",
       "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc." 
     }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
+      "link": "View in GitHub" 
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
+      "link": "View in GitHub" 
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rent",
+      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
+      "link": "View in GitHub" 
+    }
   ]
 }
