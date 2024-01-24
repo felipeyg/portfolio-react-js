@@ -47,5 +47,28 @@
       "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
       "link": "View in GitHub" 
     }
+  ],
+  "testimonial": [
+    {
+      "id": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
+      "author_name": "John Doe",
+      "author_designation": "Starbucks" 
+    },
+    {
+      "id": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton" 
+    },
+    {
+      "id": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
+      "author_name": "Katheryn Medina",
+      "author_designation": "McDonald's" 
+    }
   ]
 }
