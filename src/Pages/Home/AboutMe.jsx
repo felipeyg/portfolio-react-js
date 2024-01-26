@@ -8,9 +8,9 @@ export default function AboutMe() {
         <div className="hero--section--content">
           <p className="section--title"></p>
           <h1 className="skills--section--heading">About Me</h1>
-          <p className="hero--section-description">Eai, Beleza? Sou Felipe, tenho 27 anos, nascido em Bauru-SP. Estou no último ano de Engenharia de Produção feito na EEL-USP. Na faculdade joguei basquete, futebol americano, brincava no vôlei de areia. Era o reserva no basquete mas no futebol americano era o quarterback titular =)</p>
-          <p className="hero--section-description">Participei também de uma entidade estudantil sobre empreendedorismo, na qual, tive oportunidade de ser o presidente da entidade por um ano.</p>
-          <p className="hero--section-description">No entanto, não me vejo trabalhando como engenheiro de produção, vou seguir meu sonho de ser programador e para isso estou me dedicando 1000% e espero muito receber uma oportunidade de emprego em breve pois sei que não vou decepcionar.</p>
+          <p className="hero--section-description">Hey, how's it going? I'm Felipe, 27 years old, born in Bauru-SP. I'm in the final year of Production Engineering at EEL-USP. In college, I played basketball, American football, and took a chance on volleyball in beach volleyball. I was a substitute in basketball but the starting quarterback in American football =)</p>
+          <p className="hero--section-description">I also participated in a student organization focused on entrepreneurship, where I had the opportunity to serve as the president for one year.</p>
+          <p className="hero--section-description">However, I don't see myself working as a production engineer. I'm going to pursue my dream of becoming a programmer, and for that, I'm dedicating myself 1000%. I hope to receive a job opportunity soon because I know I won't disappoint.</p>
         </div>
       </div>
     </section>
