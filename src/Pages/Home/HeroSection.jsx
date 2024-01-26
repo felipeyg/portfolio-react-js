@@ -12,13 +12,13 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            Bem vindos ao meu portfólio, aqui vocês vão encontrar 
-            <br /> alguns dos meus projetos e um pouco sobre mim.
-            <br /> Fiquem a vontade para entrar em contato comigo.
+          Welcome to my portfolio, here you will find 
+          <br /> some of my projects and a bit about me. 
+          <br /> Feel free to get in touch with me.
           </p>
         </div>
         <Link activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-primary">
-      Fale comigo
+        Contact Me
       </Link>
       </div>
       <div className="hero--section--img">

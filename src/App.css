@@ -230,6 +230,7 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+  margin: 0 0 20px 0;
 }
 .hero--section--img {
   display: flex;
@@ -383,6 +384,7 @@ h2 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  margin-bottom: 8px;
 }
 .portfolio--link {
   text-decoration: none;

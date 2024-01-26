@@ -4,25 +4,25 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Back-End",
-      "description": "Sou familiarizado com Python, Javascript, Node.js. Gosto muito de estudar e aprender algorítimos e resolver problemas no Leetcode/Hackerrank. " 
+      "description": "I am familiar with Python, Javascript, and Node.js. I really enjoy studying and learning algorithms, as well as solving problems on Leetcode/Hackerrank. " 
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Front-End",
-      "description": "Possuo conhecimento intermediário em CSS, HTML, React. Gostaria de me aprofundar mais em React e aprender Vue.js." 
+      "description": "I have intermediate knowledge in CSS, HTML, and React. I would like to deepen my understanding of React and learn Vue.js." 
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "Data Analytics",
-      "description": "Resolver problemas com dados é algo que gosto muito. Possuo conhecimento em SQL, Pandas, Numpy, Matplotlib, Tableau/PowerBI." 
+      "description": "Solving data-related problems is something I really enjoy. I have knowledge in SQL, Pandas, Numpy, Matplotlib, Tableau/PowerBI." 
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "AI & Machine Learning",
-      "description": "Me interessa aprender Machine Learning e Deep Learning pois gosto muito do conceito porém, infelizmente, não tive tempo para aprofundar" 
+      "description": "I'm interested in learning Machine Learning and Deep Learning because I'm very passionate about the concept, but unfortunately, I haven't had the time to delve into it deeply yet." 
     }
   ],
   "portfolio": [
@@ -30,21 +30,21 @@
       "id": "1",
       "src": "./img/placeholder-image.png",
       "title": "Rede Social",
-      "description": "Rede Social com sistema de login, senha criptografada, feed de posts, lista de amigos, adicionar e remover amigos, sistema de likes, comentários, lightmode e darkmode.",
+      "description": "Social Network with a login system, encrypted password, post feed, friends list, add and remove friends feature, like system, comments, light mode, and dark mode.",
       "link": "https://github.com/felipeyg/MERN-app" 
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
       "title": "Leetcode",
-      "description": "Meu repositório com os exercicios que resolvi no Leetcode. Em constante atualização.",
+      "description": "My repository with the exercises I solved on LeetCode. Constantly updated.",
       "link": "https://github.com/felipeyg/leetcode-resolutions" 
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Em Construção",
-      "description": "Aguarde novos projetos",
+      "title": "Under Construction",
+      "description": "Stay tuned for new projects!",
       "link": "https://github.com/felipeyg" 
     }
   ],

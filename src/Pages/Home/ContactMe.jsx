@@ -43,7 +43,7 @@ function ContactMe() {
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Me mande uma mensagem, estou sempre disponível para conversar.
+          Send me a message, I'm always available to chat.
         </p>
       </div>
 
