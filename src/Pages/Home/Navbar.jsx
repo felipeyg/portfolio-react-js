@@ -35,13 +35,13 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./img/logo.png" alt="Logo" className="navbar--logo"/>
       </div>
-      <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+      <button className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </a>
+      </button>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
@@ -50,8 +50,8 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">
-              Portfolio
+            <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="mySkills" className="navbar--content">
+              My Skills
             </Link>
           </li>
           <li>
@@ -60,14 +60,19 @@ function Navbar() {
             </Link>
           </li>
           <li>
+            <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">
+              Portfolio
+            </Link>
+          </li>
+          {/* <li>
             <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="testimonial" className="navbar--content">
               Testimonials
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-outline-primary">
-      Contact Me
+      Fale comigo
       </Link>
     </nav>
   );

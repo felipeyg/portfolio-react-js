@@ -10,10 +10,6 @@ function ContactMe() {
 
   function sendEmail(e) {
     e.preventDefault();
-
-    if (first_name === '' || last_name === '' || email === '' || phone_number === '' || message === '') {
-      alert('Preencha todos os campos');
-      return;
   }
 
     const templateParams = {
@@ -24,9 +20,9 @@ function ContactMe() {
       message: message,
     };
 
-    emailjs.send('service_zupv0f9', 'template_v138kj9', templateParams, '8NYUA4XdULzD5oYLT')
+    emailjs.send('service_suf3gw9', 'template_54ob94r', templateParams, 'erNBFg_gBxE-Qv88r')
     .then((result) => {
-      console.log("Success: ", result.text);
+      console.log(result.text);
       setFirstName('');
       setLastName('');
       setEmail('');
@@ -35,7 +31,6 @@ function ContactMe() {
     }, (err) => {
       console.log("Error: ", err);
     });
-  }
 
   return (
     <section id="Contact" className="contact--section">
@@ -46,16 +41,54 @@ function ContactMe() {
           Me mande uma mensagem, estou sempre disponível para conversar.
         </p>
       </div>
+      
+      <form className="form" onSubmit={() => {}}>
+        <input 
+          className="input"
+          type="text"
+          placeholder="Digite seu nome"
+          onChange={(e) => setFirstName(e.target.value)}
+          value={first_name}
+        />
+        <input 
+          className="input"
+          type="text"
+          placeholder="Digite seu nome"
+          onChange={(e) => setLastName(e.target.value)}
+          value={last_name}
+        />
+        
+        <input 
+          className="input"
+          type="text"
+          placeholder="Digite seu email"
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
+        />
 
+        <textarea 
+          className="textarea"
+          placeholder="Digite sua mensagem..."
+          onChange={(e) => setMessage(e.target.value)}
+          value={message}
+        />
+
+        <input className="button" type="submit" value="Enviar" />
+
+
+      </form>
       <form className="contact--form--container" onSubmit={sendEmail}>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
             <input 
-              className="contact--input text.md"
               type="text"
+              className="contact--input text.md" 
+              name="first-name"
+              id="first-name"
               onChange={(e) => setFirstName(e.target.value)}
               value={first_name}
+              required
             />
           </label>
           <label htmlFor="last-name" className="contact--label">
@@ -63,8 +96,11 @@ function ContactMe() {
             <input 
               type="text"
               className="contact--input text.md" 
+              name="last-name"
+              id="last-name"
               onChange={(e) => setLastName(e.target.value)}
               value={last_name}
+              required
             />
           </label>
           <label htmlFor="email" className="contact--label">
@@ -72,8 +108,11 @@ function ContactMe() {
             <input 
               type="email"
               className="contact--input text.md" 
+              name="email"
+              id="email"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
+              required
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
@@ -81,8 +120,11 @@ function ContactMe() {
             <input 
               type="number"
               className="contact--input text.md" 
+              name="phone-number"
+              id="phone-number"
               onChange={(e) => setPhoneNumber(e.target.value)}
               value={phone_number}
+              required
             />
           </label>
         </div>
@@ -104,16 +146,17 @@ function ContactMe() {
             <span className="text-md">Message</span>
             <textarea 
               className="contact--input text.md" 
+              id="message"
               rows="8"
               placeholder="Type your message here..."
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             />
           </label>
-          {/* <label htmlFor="checkbox" className="checkbox--label">
+          <label htmlFor="checkbox" className="checkbox--label">
             <input type="checkbox" required name="checkbox" id="checkbox"/>
             <span className="text-sm">I accept the terms</span>
-          </label> */}
+          </label>
           <div>
             <input className="btn btn-primary contact--form--btn" type="submit" value="Submit" />
           </div>

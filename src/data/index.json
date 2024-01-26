@@ -3,49 +3,49 @@
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc." 
+      "title": "Back-End",
+      "description": "Sou familiarizado com Python, Javascript, Node.js. Gosto muito de estudar e aprender algorítimos e resolver problemas no Leetcode/Hackerrank. " 
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc." 
+      "title": "Front-End",
+      "description": "Possuo conhecimento intermediário em CSS, HTML, React. Gostaria de me aprofundar mais em React e aprender Vue.js." 
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc." 
+      "title": "Data Analytics",
+      "description": "Resolver problemas com dados é algo que gosto muito. Possuo conhecimento em SQL, Pandas, Numpy, Matplotlib, Tableau/PowerBI." 
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc." 
+      "title": "AI & Machine Learning",
+      "description": "Me interessa aprender Machine Learning e Deep Learning pois gosto muito do conceito porém, infelizmente, não tive tempo para aprofundar" 
     }
   ],
   "portfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
-      "link": "View in GitHub" 
+      "title": "Rede Social",
+      "description": "Rede Social com sistema de login, senha criptografada, feed de posts, lista de amigos, adicionar e remover amigos, sistema de likes, comentários, lightmode e darkmode.",
+      "link": "https://github.com/felipeyg/MERN-app" 
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
-      "link": "View in GitHub" 
+      "title": "Leetcode",
+      "description": "Meu repositório com os exercicios que resolvi no Leetcode. Em constante atualização.",
+      "link": "https://github.com/felipeyg/leetcode-resolutions" 
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rent",
-      "description": "Loren ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget maximus condimentum, odio nibh ultricies enim, eu aliquam nunc nisl eu nunc.",
-      "link": "View in GitHub" 
+      "title": "Em Construção",
+      "description": "Aguarde novos projetos",
+      "link": "https://github.com/felipeyg" 
     }
   ],
   "testimonial": [

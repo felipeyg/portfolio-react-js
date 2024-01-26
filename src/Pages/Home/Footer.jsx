@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.png" alt="Logo" className="navbar--logo" />
         </div>
         <div className="footer--items">
           <ul>
@@ -30,10 +30,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="mySkills"
                 className="text-md"
               >
-                Portfolio
+                My Skills
               </Link>
             </li>
             <li>
@@ -56,13 +56,27 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                Portfolio
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 to="Contact"
                 className="text-md"
               >
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="navbar--active-content"
                 spy={true}
@@ -74,12 +88,12 @@ function Footer() {
               >
                 Testimonials
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="footer--social--icon">
           <ul>
-            <li>
+            {/* <li>
               <a
                 href="https://www.facebook.com/"
                 className="navbar--content"
@@ -99,10 +113,10 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/felipeyg/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -125,7 +139,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/shouldntbemean"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -146,7 +160,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/felipeyg/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,7 +186,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Felipe</p>
         <div className="footer--social--icon">
           <ul>
             <li>
